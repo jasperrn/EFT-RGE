@@ -1,0 +1,30 @@
+Dimension 4 spin 0 in the general scalar theory including descendants and EOM-redundant op
+erators
+
+There are four operators,
+
+$$
+   O^{(4,0)}_{4,1} = - \mu^{2\epsilon} \frac{c^{a_1 a_2 a_3 a_4}}{4!}
+                     \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4}
+$$ \phantom{.}
+
+$$
+   O^{(4,0)}_{2,sym,1} = -\frac{1}{4} c_\text{sym,1}^{a_1 a_2}  
+                    (\phi^{a_1} \partial^2 \phi^{a_2} + \partial^2\phi^{a_1} \phi^{a_2})
+$$ \phantom{.}
+
+$$
+   O^{(4,0)}_{2,antisym} = \frac{1}{2} c_\text{antisym}^{a_1 a_2}  
+                    (\phi^{a_1} \partial^2 \phi^{a_2} - \partial^2\phi^{a_1} \phi^{a_2})
+   = \frac{1}{2} c_\text{antisym}^{a_1 a_2}
+       \partial_\mu \left( \phi^{a_1}\partial^\mu \phi^{a_2} 
+                              - \partial^\mu \phi^{a_1} \phi^{a_2} \right)
+$$ \phantom{.}
+
+$$
+   O^{(4,0)}_{2,sym,2} = -\frac{1}{2} c_\text{sym,2}^{a_1 a_2}  
+                        \partial^2 \left( \phi^{a_1} \phi^{a_2} \right)
+$$ \phantom{.}
+
+The anomalous dimensions are defined as in other cases.
+

@@ -1,0 +1,18 @@
+Dimension 5 spin 0 in the general scalar theory
+
+At this order, there is one operator, 
+
+$$
+   O^{(5,0)}_{5,1} = \frac{1}{\mu^{1-3\epsilon}} \frac{C^{a_1 a_2 a_3 a_4 a_5}}{5!}
+      \phi^{a_1}\phi^{a_2}\phi^{a_3}\phi^{a_4}\phi^{a_5}
+$$ \phantom{.}
+
+The tensor $C^{a_1 a_2 a_3 a_4 a_5}$ (which we call D55[a1,a2,a3,a4,a5]) is fully symmetric in its indices.
+The anomalous dimension is given by
+
+$$
+   \mu \frac{d}{d\mu} C^{A} = \gamma^{AB} C^{B} = (1-3\epsilon)C^{A} + O(\lambda)
+$$ \phantom{.}
+
+where capital letter indices stand for groups of indices.
+

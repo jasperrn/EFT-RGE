@@ -1,0 +1,49 @@
+Dimension 5 spin 2 in the general scalar theory.
+
+At this order, there are two operators, corresponding to the symmetric and anti-symmetric Lorentz representations. 
+
+\phantom{.}
+
+--------------------------------------
+
+The operator in the Lorentz symmetric representation is
+
+$$ O^{(5,2)}_{3,1} = \frac{1}{\mu^{1-\epsilon}} D_s^{a_1 a_2 a_3}
+   \Big( 
+      \phi^{a_1} \phi^{a_2} \partial_\mu \partial_\nu \phi^{a_3}
+     + \phi^{a_1} \partial_\mu \partial_\nu \phi^{a_2} \phi^{a_3}
+     - 2 \phi^{a_1} \partial_\mu \phi^{a_2} \partial_\nu \phi^{a_3} 
+     - 2 \phi^{a_1} \partial_\nu \phi^{a_2} \partial_\mu \phi^{a_3} 
+   \Big)
+$$ \phantom{.}
+
+The tensor $D_s$ is symmetric in its last two indices,
+
+$$ D_s^{a_1 a_2 a_3} = D_s^{a_1 a_3 a_2} $$\phantom{.}
+
+The scaling dimension is defined as 
+
+$$ \mu \frac{d}{d\mu} D_s^A = \gamma^{AB} D_s^B = (1-\epsilon)D_s^A + O(\lambda)
+$$\phantom{.}
+
+where capital letter indices stand for groups of indices.
+
+--------------------------------------
+
+The operator in the anti-symmetric Lorentz representation is
+
+$$ O^{(5,\{1,1\})}_{3,1} = - \frac{1}{\mu^{1-\epsilon}} D_s^{a_1 a_2 a_3} 
+      \phi^{a_1} \partial_\mu \phi^{a_2} \partial_\nu \phi^{a_2} 
+$$ \phantom{.}
+
+The tensor $D_a^{a_1 a_2 a_3}$ is fully antisymmetric in its indices,
+
+$$ D_a^{a_1 a_2 a_3} = - D_a^{a_2 a_1 a_3} = -D_a^{a_1 a_3 a_2} 
+$$ \phantom{.} 
+
+The scaling dimension is defined as
+
+$$ \mu \frac{d}{d\mu} D_a^A = \gamma^{AB} D_a^B = (1-\epsilon)D_a^A + O(\lambda)
+$$\phantom{.}
+
+where capital letter indices stand for groups of indices.

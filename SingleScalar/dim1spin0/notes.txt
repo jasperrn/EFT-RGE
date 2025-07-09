@@ -1,0 +1,15 @@
+The renormalizable part of the single scalar theory has been defined as
+
+$\mathcal{L} = \frac12 \partial_\mu \phi \partial^\mu \phi - \mu^{2\epsilon} \frac{\lambda}{4!} \phi^4 $
+
+The beta function of $\lambda$ is defined as
+
+$\beta(\lambda) = \mu \frac{d}{d\mu} \lambda = -2\, \epsilon \,\lambda + O(\lambda^2) $
+
+The result for $\beta(\lambda)$ is saved in beta.m
+
+The anomalous dimension of the field $\phi$ is defined as
+
+$\mu \frac{d}{d\mu} \phi = - \gamma_\phi \phi = O(\lambda^2) * \phi $
+
+

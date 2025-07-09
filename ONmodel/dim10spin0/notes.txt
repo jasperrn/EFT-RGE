@@ -1,0 +1,176 @@
+Dimension 10 spin 0 
+
+At this order there are xx operators, which we define as
+
+$$ O^{(10,0)}_{10,1} = \frac{1}{\mu^{6-8\epsilon}}\frac{c_{10}}{2^5*5!} (\phi \cdot \phi)^5 
+$$
+
+$$ O^{(10,0)}_{8,1} = -\frac{1}{\mu^{6-6\epsilon}} c_8 (\phi \cdot \phi)^2 \left[
+         (\phi \partial_\mu \phi)^2 - (\phi \cdot \phi) (\partial_\mu \phi \partial^\mu \phi)
+   \right]
+$$
+
+$$ O^{(10,0)}_{6,1} = \frac{1}{\mu^{6-4\epsilon}} c_{61} \left(
+     o_{6,1} + o_{6,2} + o_{6,3} + o_{6,4} - o_{6,5} + o_{6,6} + o_{6,7} - o_{6,8} - o_{6,9}
+   \right)
+$$
+
+$$ O^{(10,0)}_{6,2} = \frac{1}{\mu^{6-4\epsilon}} c_{62} \left(
+     o_{6,1} - 9 o_{6,3} -\frac{1}{4} o_{6,4} - o_{6,5} +\frac{9}{2} o_{6,6} -\frac{3}{2} o_{6,8} +5 o_{6,9}
+   \right)
+$$
+
+$$ O^{(10,0)}_{6,3} = \frac{1}{\mu^{6-4\epsilon}} c_{63} \left(
+     o_{6,2} + \frac{5}{2} o_{6,3} - o_{6,6} - \frac{1}{4} o_{6,7} + \frac{1}{2} o_{6,8} - o_{6,9}
+   \right)
+$$
+
+$$ O^{(10,0)}_{6,4} = \frac{1}{\mu^{6-4\epsilon}} c_{64} \left(
+     o_{6,2} -\frac{1}{2} o_{6,3} -\frac{1}{2} o_{6,6} + \frac{1}{4} o_{6,7}
+   \right)
+$$
+
+$$ O^{(10,0)}_{4,1} = \frac{1}{\mu^{6-2\epsilon}} c_{41} \left(
+   o_{4,1} + o_{4,2} + 63 o_{4,3} -\frac{9}{2} o_{4,4} + 63 o_{4,5} -\frac{9}{2}  o_{4,6} 
+   -\frac{9}{2} o_{4,7} -54 o_{4,8} -54 o_{4,9} +36 o_{4,10} +36 o_{4,11} -54 o_{4,12}     
+\right)
+$$
+
+$$ O^{(10,0)}_{4,2} = \frac{1}{\mu^{6-2\epsilon}} c_{42} \left(
+   o_{4,1} -\frac{1}{2} o_{4,2} + 27 o_{4,3} -\frac{9}{2} o_{4,4} -\frac{27}{2} o_{4,5} +\frac{9}{2} o_{4,6} 
+   + 18 o_{4,8} -27 o_{4,9} + 9 o_{4,12}     
+\right)
+$$ \phantom{.}
+
+with
+
+$$o_{6,1} = 
+    \frac{1}{16} (\phi\cdot \phi)^2 
+    (\partial_{\mu\nu} \phi \cdot \partial^{\mu\nu} \phi)               
+$$
+
+$$   o_{6,2} = 
+    \frac{1}{16} (\phi\cdot \phi )
+                (\partial_\mu \phi\cdot \partial^\mu \phi)^2
+$$ 
+
+$$o_{6,3} = 
+    \frac{1}{8} (\phi\cdot \phi) 
+                (\partial_\mu \phi\cdot \partial_\nu \phi)^2 
+$$
+
+$$ o_{6,4} = 
+    \frac{1}{4} (\phi\cdot \phi) 
+                 (\phi\cdot \partial_{\mu\nu} \phi)^2
+$$
+
+$$o_{6,5} = 
+    \frac{1}{2} (\phi \cdot \phi) 
+                (\phi\cdot \partial_{\mu} \phi) 
+                (\partial_\nu \phi\cdot \partial^{\mu\nu} \phi)
+$$ 
+
+$$o_{6,6} = 
+    \frac{1}{4} (\phi\cdot \partial_\mu\phi)^2
+                (\partial_\nu \phi\cdot \partial^{\nu} \phi)
+$$
+
+$$o_{6,7} = 
+    \frac{1}{2} (\phi\cdot \partial_\mu\phi) 
+                (\phi\cdot \partial_{\nu} \phi) 
+                (\partial^\mu \phi\cdot \partial^{\nu} \phi)
+$$
+
+$$ o_{6,8} = 
+    \frac{1}{2} (\phi \cdot \partial_\mu\phi) 
+                 (\phi\cdot \partial_{\nu} \phi) 
+                (\phi\cdot \partial^{\mu\nu} \phi)
+$$
+
+$$o_{6,9} = 
+    \frac{1}{4} (\phi \cdot \phi) 
+                (\partial_\mu\phi\cdot \partial_{\nu} \phi) 
+                (\phi\cdot \partial_{\mu\nu} \phi)
+$$  
+
+$$    o_{4,1} = 
+    -\frac{1}{4} (\phi \cdot \phi) 
+                 (\partial_{\mu\nu\rho}\phi \cdot \partial^{\mu\nu\rho} \phi)
+$$
+
+$$   o_{4,2} = 
+    -\frac{1}{2} (\phi\cdot \partial_{\mu\nu\rho} \phi)^2
+$$
+
+$$    o_{4,3} = 
+    -\frac{1}{4} (\partial_\mu \phi\cdot \partial^{\mu} \phi) 
+                 (\partial_{\nu\rho}\phi \cdot \partial^{\nu\rho} \phi)
+$$   
+
+$$    o_{4,4} = 
+    -            (\phi \cdot\partial_{\mu} \phi)
+                 (\partial_{\nu\rho}\phi\cdot \partial^{\mu\nu\rho} \phi)
+$$  
+
+$$    o_{4,5} = 
+    -\frac{1}{2} (\partial_{\mu\nu} \phi \cdot \partial_{\rho} \phi)^2
+$$ 
+
+$$    o_{4,6} = 
+        -        (\phi\cdot \partial_{\mu\nu} \phi)
+                 (\partial_{\rho}\phi\cdot \partial^{\mu\nu\rho} \phi)
+$$  
+
+$$   o_{4,7} = 
+        -        (\partial_{\mu}\phi\cdot \partial_{\nu\rho} \phi) 
+                 (\phi\cdot \partial^{\mu\nu\rho} \phi)
+$$ 
+
+$$    o_{4,8} = 
+    - \frac{1}{2} 
+    (\partial_{\mu\nu}\phi\cdot \partial^{\mu\rho} \phi)
+           (\partial^\nu \phi\cdot \partial_{\rho} \phi)
+$$  
+
+$$    o_{4,9} = 
+    - \frac{1}{2} 
+    (\partial_{\mu\nu}\phi\cdot \partial^{\mu} \phi)^2
+$$  
+
+$$    o_{4,10} = 
+    - \frac{1}{2} 
+    (\partial_{\mu\nu}\phi\cdot \partial^{\mu \rho} \phi) 
+     ( \phi\cdot \partial^{\nu}\partial_{\rho} \phi)
+$$ 
+
+$$   o_{4,11} = 
+    - \frac{1}{2} 
+    (\partial_{\mu}\phi\cdot \partial_{\nu} \phi) 
+    (\partial_\rho \phi\cdot \partial^{\mu \nu \rho} \phi)
+$$  
+
+$$    o_{4,12} = 
+    - \frac{1}{2} 
+    (\partial_{\mu\nu}\phi\cdot \partial_{\rho} \phi) 
+    (\partial^{\mu\rho} \phi\cdot \partial^{\nu} \phi)
+$$
+
+where we used the shorthand $\partial_{\mu\nu} = \partial_\mu \partial_\nu$.
+
+As a consistency check on the conventions, these operators are defined to be conformal primary operators in the free theory limit. In addition, the conventions are such that 
+$O^{(10,0)}_{8,1}$, $O^{(10,0)}_{6,2}$, $O^{(10,0)}_{6,3}$, $O^{(10,0)}_{6,4}$ and $O^{(10,0)}_{4,2}$ all
+vanish for $N=1$, and $O^{(10,0)}_{6,4}$ also vanishes for $N=2$.
+
+The scaling dimensions are defined as
+
+$$ \mu \frac{d}{d\mu} c_{10} = (6-8\epsilon)c_{10} + O(\lambda)$$
+
+$$ \mu \frac{d}{d\mu} c_8 = (6-6\epsilon)c_8+ O(\lambda)$$
+
+$$ \mu \frac{d}{d\mu} c_{6i} = (6-4\epsilon)c_{6i} + O(\lambda)$$
+
+$$ \mu \frac{d}{d\mu} c_{4i} = (6-2\epsilon)c_{4i} + O(\lambda)$$\phantom{.}
+
+
+\textit{These results first appeared in the PhD thesis of Jasper Roosmale Nepveu, DOI: 10.18452/29107}
+

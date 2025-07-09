@@ -1,0 +1,64 @@
+Dimension 6 spin 2 in the general scalar theory
+
+We split the results in the symmetric and anti-symmetric representations of the Lorentz group. 
+
+---------------------------------------------------------
+
+In the symmetric representation, we have defined the operators
+
+$$
+   O^{(6,2)}_{4,1} = \frac{1}{\mu^{2-2\epsilon}} \frac{C_s^{a_1 a_2 a_3 a_4}}{2}
+       \left( \phi^{a_1} \phi^{a_2} \phi^{a_3} \partial_\mu \partial_\nu \phi^{a_4}
+            -2\,\phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} \partial_\nu \phi^{a_4}
+       \right)
+$$
+
+$$
+   O^{(6,2)}_{2,1} = \frac{1}{\mu^2}C^{a_1 a_2} 
+      \partial_\mu \partial_\nu \phi^{a_1} \partial^2 \phi^{a_2}
+$$ \phantom{.}
+
+where $C_s^{a_1 a_2 a_3 a_4}$ is symmetric in the first two and in the last two indices,
+
+$$ C_s^{a_1 a_2 a_3 a_4} = C_s^{a_2 a_1 a_3 a_4} = C_s^{a_1 a_2 a_4 a_3} \,, $$\phantom{.}
+
+and $C^{a_1 a_2}$ is a symmetric matrix,
+
+$$ C^{a_1 a_2} = C^{a_2 a_1} \,. $$\phantom{.}
+
+The scaling dimensions are defined as
+
+$$ \mu \frac{d}{d\mu} C_s^{a_1 a_2 a_3 a_4}
+   = \gamma_{4\to 4}^{a_1 a_2 a_3 a_4, b_1 b_2 b_3 b_4} C_s^{b_1 b_2 b_3 b_4}
+      + \gamma_{2\to 4}^{a_1 a_2 a_3 a_4, b_1 b_2} C^{b_1 b_2}
+   = (2-2\epsilon) C_s^{a_1 a_2 a_3 a_4} + O(\lambda)
+$$
+
+$$ \mu \frac{d}{d\mu} C^{a_1 a_2}
+   = \gamma_{4\to 2}^{a_1 a_2, b_1 b_2 b_3 b_4} C_s^{b_1 b_2 b_3 b_4}
+      + \gamma_{2\to 2}^{a_1 a_2, b_1 b_2} C^{b_1 b_2}
+      = 2\,C^{a_1 a_2} + O(\lambda)
+$$\phantom{.}
+
+\textit{\textbf{Note:} In contrast to other calculations, we do not remove the two-point operator using the equations of motion.
+The reason is that the associated field redefinition affects the field strength normalization of the scalar (i.e. the Z factor in the LSZ reduction formula).}
+
+---------------------------------------------------------
+
+In the anti-symmetric representation, we have defined the operator
+
+$$ 
+   O^{(6,\{1,1\})}_{4,1} = - \frac{1}{\mu^{2-2\epsilon}} C_a^{a_1 a_2 a_3 a_4} 
+      \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} \partial_\nu \phi^{a_4} 
+$$\phantom{.}
+
+where $C_a^{a_1 a_2 a_3 a_4}$ is fully anti-symmetric in its last three indices,
+
+$$C_a^{a_1 a_2 a_3 a_4} = - C_a^{a_1 a_3 a_2 a_4} = - C_a^{a_1 a_2 a_4 a_3} \,. $$\phantom{.}
+
+The scaling dimension is defined as
+
+$$ \mu \frac{d}{d\mu} C_a^{a_1 a_2 a_3 a_4}
+   = \gamma^{a_1 a_2 a_3 a_4, b_1 b_2 b_3 b_4} C_a^{b_1 b_2 b_3 b_4}
+   = (2-2\epsilon) C_a^{a_1 a_2 a_3 a_4} + O(\lambda) \,.
+$$

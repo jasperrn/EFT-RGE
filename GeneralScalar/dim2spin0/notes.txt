@@ -1,0 +1,16 @@
+We define the renormalizable theory through
+
+$$ L = \frac12 \partial_\mu \phi^a \partial^\mu \phi^a
+      - \frac{\mu^2}{2} m^2_{a_1 a_2} \phi^{a_1} \phi^{a_2}
+      - \frac{\mu^{1+\epsilon}}{6} c_{a_1 a_2 a_3} \phi^{a_1} \phi^{a_2} \phi^{a_3}
+      - \frac{\mu^{2\epsilon}}{4!} \lambda^{a_1 a_2 a_3 a_4}
+             \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} 
+$$\phantom{.} 
+
+The anomalous dimension of the mass is defined by
+
+$$ \mu \frac{d}{d\mu} m^2_{a_1 a_2} = 2 m^2_{a_1 a_2} + O(\lambda) 
+$$\phantom{.}
+
+We provide five-loop results for these objects. (We do not consider renormalization of $m^2$ by double insertions of $\phi^3$.) 
+See [Bednyakov and Pikelner 2102.12832] for six-loop expressions.

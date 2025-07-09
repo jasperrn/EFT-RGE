@@ -1,0 +1,26 @@
+Dimension 4 spin 1
+
+There is one operator at this order, which we define as
+
+$$ O^{(4,1)}_{3,1} = ... D^{a_1 a_2 a_3} \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} $$\phantom{.}
+
+The tensor D is symmetric in it's first two indices
+
+$$ D^{a_1 a_2 a_3} = D^{a_2 a_1 a_3} $$\phantom{.}
+
+and it satisfies the primary condition,
+
+$$ D^{a_1 a_2 a_3} + D^{a_2 a_3 a_1} + D^{a_3 a_1 a_2 } = 0 $$\phantom{.}
+
+The latter can be imposed by the replacement 
+
+$$ D^{a_1 a_2 a_3} -> \frac23 D^{a_1 a_2 a_3} - \frac13 D^{a_2 a_3 a_1} - \frac13 D^{a_3 a_1 a_2} 
+$$\phantom{.}
+
+The anomalous dimension is defined as
+
+$$ \mu \frac{d}{d\mu} D^A = \gamma^{AB} D^B
+                                     = -\epsilon\,D^A + O(\lambda) 
+$$\phantom{.}
+
+where the capital letter indices stand for groups of indices.

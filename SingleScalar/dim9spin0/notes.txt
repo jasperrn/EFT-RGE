@@ -1,0 +1,21 @@
+Dimension 9 spin 0 in the single scalar EFT (Ising model)
+
+There are two operators at this order, which we define as 
+
+$$ O^{(9,0)}_{9,1} = \frac{1}{\mu^{5-7\epsilon}} \frac{c_9}{9!} \phi^9 $$
+
+$$ O^{(9,0)}_{5,1} = \frac{c_5}{\mu^{5-3\epsilon}}\left( 
+\frac14 \phi^3 \partial_\mu \partial_\nu \phi \partial^\mu \partial^\nu \phi
+-\phi^2 \partial_\mu \phi \partial_\nu \phi \partial^\mu \partial^\nu \phi
++\frac34 \phi \partial_\mu \phi \partial^\mu \phi \partial_\nu \phi \partial^\nu \phi
+\right)
+$$
+\phantom{.}
+
+The anomalous dimension of c9 and c5 have the form
+
+$$ \mu \frac{d}{d\mu} c_9 = (5-7*\epsilon)*c_9 + O(\lambda) $$
+
+$$ \mu \frac{d}{d\mu} c_5 = (5-3*\epsilon)*c_5 + O(\lambda) $$\phantom{.}
+
+which we save in res[9,0,9,1] and res[9,0,5,1], respectively.

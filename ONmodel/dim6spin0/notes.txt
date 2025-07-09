@@ -1,0 +1,20 @@
+Dimension 6 spin 0 in the O(N) model
+
+For convenience, we provide a mathematica file for the anomalous dimensions of all irreps up to five loops. These can also be extracted from the five-loop results in the hypercubic theory. 
+
+There are two singlet operators at this order,
+
+$$ O^{(6,0)}_{6,1} = \frac{1}{\mu^{2-4\epsilon}} \frac{c_6}{48} (\phi \cdot \phi)^3 $$
+
+$$ O^{(6,0)}_{4,1} = \frac{1}{\mu^{2-2\epsilon}} \frac{c_4}{4} \left[ 
+   \left(\phi \partial_\mu \phi \right)^2 - (\phi \cdot \phi)(\partial_\mu \phi \cdot \partial^\mu \phi) 
+\right]
+$$\phantom{.}
+
+The anomalous dimensions of these operators have the form
+
+$$ \mu \frac{d}{d\mu} c_6 = (2-4\epsilon)c_6 + O(\lambda) $$
+
+$$ \mu \frac{d}{d\mu} c_4 = (2-2\epsilon)c_4 + O(\lambda) $$\phantom{.}
+
+In addition, we saved results for two operators in the T irrep; one operator in the T4 irrep; one opeartor in the T6 irrep; and one operator in the B4 irrep.

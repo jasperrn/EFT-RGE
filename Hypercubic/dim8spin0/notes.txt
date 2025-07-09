@@ -1,0 +1,104 @@
+Dimension 8 spin 0 in cubic theory
+
+The dimension four Lagrangian has been taken to be
+
+$$
+   L = \frac{1}{2} \partial_\mu \phi^{a} \partial^\mu \phi^{a}
+      -\frac{\lambda_1}{4!}(\phi.\phi)^2
+      -\frac{\lambda_2}{4!}\delta^{a_1 a_2 a_3 a_4}
+            \phi^{a_1}\phi^{a_2}\phi^{a_3}\phi^{a_4}      
+$$ \phantom{.}
+
+In other words, starting from the general theory, we have replaced the dimension-four tensor
+
+$$
+   \lambda^{a_1 a_2 a_3 a_4} \to \frac{\lambda_1}{3}(\delta^{a_1 a_2}\delta^{a_3 a_4}
+                                                     +\delta^{a_1 a_3}\delta^{a_2 a_4}
+                                                     +\delta^{a_1 a_4}\delta^{a_2 a_3})
+                                 +\lambda_2 \delta^{a_1 a_2 a_3 a_4}
+$$ \phantom{.}
+
+The higher-dimensional operators are kept general, such that all irreducible representations are captured. There are four such operators,
+
+$$
+   O^{(8,0)}_{8,1} = \frac{1}{\mu^{4-6\epsilon}} \frac{c_8^{a_1\dots a_8}}{8!} \phi^{a_1}\cdots\phi^{a_8}
+$$
+
+$$
+   O^{(8,0)}_{6,1} = - \frac{1}{\mu^{4-4\epsilon}} \frac{c_6^{a_1 a_2 a_3 a_4 a_5 a_6}}{48} 
+                           \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} \partial_\mu \phi^{a_5} \partial^\mu \phi^{a_6}
+$$
+
+$$
+   O^{(8,0)}_{4,1} = \frac{1}{\mu^{4-2\epsilon}} c_{4,1}^{a_1 a_2 a_3 a_4} \left(
+           \frac{3}{4} \partial_\mu \phi^{a_1} \partial^\mu \phi^{a_2} \partial_\nu \phi^{a_3} \partial^\nu \phi^{a_4}
+           - \phi^{a_1} \partial_\mu \phi^{a_2} \partial_\nu \phi^{a_3} \partial^\mu \partial^\nu \phi^{a_4}
+           +\frac{1}{4} \phi^{a_1} \phi^{a_2} \partial_\mu \partial_\nu \phi^{a_3} \partial^\mu \partial^\nu \phi^{a_4}
+           \right) 
+$$
+
+$$
+   O^{(8,0)}_{4,2} = \frac{1}{\mu^{4-2\epsilon}} c_{4,2}^{a_1 a_2 a_3 a_4} \left(
+           -3 \partial_\mu \phi^{a_1} \partial^\mu \phi^{a_2} \partial_\nu \phi^{a_3} \partial^\nu \phi^{a_4}
+           - 4 \phi^{a_1} \partial_\mu \phi^{a_2} \partial_\nu \phi^{a_3} \partial^\mu \partial^\nu \phi^{a_4}
+           -\frac{1}{2} \phi^{a_1} \phi^{a_2} \partial_\mu \partial_\nu \phi^{a_3} \partial^\mu \partial^\nu \phi^{a_4}
+                     \right) 
+$$ \phantom{.}
+
+where $c_8$ is fully permutation invariant. $c_6$ is permutation invariant in the first four indices and in the last two indices. In addition, it satisfies the condition
+
+$$
+   c_6^{a_1 a_2 a_3 a_4 a_5 a_6} + 
+   c_6^{a_1 a_2 a_3 a_5 a_4 a_6} + 
+   c_6^{a_1 a_2 a_5 a_4 a_3 a_6} + 
+   c_6^{a_1 a_5 a_3 a_4 a_2 a_6} + 
+   c_6^{a_5 a_2 a_3 a_4 a_1 a_6} = 0
+$$\phantom{.}
+
+(and similarly for the sum over five permutations keeping $a_5$ fixed, due to the symmetry under $a_5 \leftrightarrow a_6$).
+
+Furthermore, $c_{4,1}$ is fully permutation invariant. Finally, $c_{4,2}$ satisfies the same conditions as the four-point tensor at dimension six. That is, it is symemtric in the first two and symmetric in the last two indices, as well as symmetric in interchanging these pairs, and it satisfies the condition
+
+$$
+   c_{4,2}^{a_1 a_2 a_3 a_4} + c_{4,2}^{a_2 a_3 a_1 a_4} + c_{4,3}^{a_3 a_1 a_2 a_4} = 0
+$$ \phantom{.}
+
+
+The anomalous dimensions are of the form
+
+$$
+   \mu \frac{d}{d\mu} c_8^{A} = 
+           \sum_i \gamma^{AB}_{8,i} c_i^B
+            = 
+            (4-6\epsilon)c_8^{A} + O(\lambda)
+$$ \phantom{.}
+
+etc. where the capital indices stand for group of indices, e.g. $A=a_1a_2a_3a_4a_5a_6a_7a_8$ in the above example. 
+
+To reduce the size of the expressions, the external indices have been contracted with dummy functions that preserve the permutation symmetry. That is, the results files list the expressions
+
+$$
+   \mu \frac{d}{d\mu} c_8^{a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8} \
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_1^{a_3}  \phi_1^{a_4}   \phi_1^{a_5}   \phi_1^{a_6} \phi_1^{a_7} \phi_1^{a_8}
+$$
+$$
+   \mu \frac{d}{d\mu} c_6^{a_1 a_2 a_3 a_4 a_5 a_6} \
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_1^{a_3}  \phi_1^{a_4}   \phi_2^{a_5}   \phi_2^{a_6}
+$$
+
+$$
+   \mu \frac{d}{d\mu} c_{4,1}^{a_1 a_2 a_3 a_4}
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_1^{a_3}  \phi_1^{a_4}
+$$ 
+
+$$
+   \mu \frac{d}{d\mu} c_{4,2}^{a_1 a_2 a_3 a_4}
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_2^{a_3}  \phi_2^{a_4}
+$$ \phantom{.}
+
+where $\phi_1$ and $\phi_2$ are dummy vectors.
+
+
+
+
+

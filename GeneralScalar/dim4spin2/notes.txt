@@ -1,0 +1,21 @@
+Dimension 4 spin 2 in the general scalar theory. 
+
+At this order, there is one operator, which we define as
+
+$$ O^{(4,2)}_{2,1} = D^{a_1 a_2} \Big(
+   \phi^{a_1} \partial_\mu \partial_\nu \phi^{a_2}
+   + \partial_\mu \partial_\nu \phi^{a_1} \phi^{a_2}
+   - 2\, \partial_\mu \phi^{a_1} \partial_\nu \phi^{a_2}
+   - 2\, \partial_\nu \phi^{a_1} \partial_\mu \phi^{a_2}
+\Big) $$\phantom{.}
+
+The tensor $D^{a_1 a_2}$ is symmetric in its indices,
+
+$$ D^{a_1 a_2} = D^{a_2 a_1} $$ \phantom{.}
+
+The scaling dimension is defined as
+
+$$ \mu \frac{d}{d\mu} D^A = \gamma^{AB} D^{B} = O(\lambda) $$ \phantom{.}
+
+where the capital letter indices stand for groups of indices.
+

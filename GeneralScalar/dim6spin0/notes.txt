@@ -1,0 +1,54 @@
+Dimension 6 spin 0 in the general scalar theory
+
+At this order, there are two operators,
+
+$$
+   O^{(6,0)}_{6,1} = \frac{1}{\mu^{2-4\epsilon}}\frac{c_6^{a_1 a_2 a_3 a_4 a_5 a_6}}{6!}
+                        \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} \phi^{a_5} \phi^{a_6}
+$$ \phantom{.}
+
+$$
+   O^{(6,0)}_{4,1} = -\frac{1}{\mu^{2-2\epsilon}}\frac{c_4^{a_1 a_2 a_3 a_4}}{4}
+                        \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} \partial^\mu \phi^{a_4}
+$$ \phantom{.}
+
+The coupling $c_6$ (which is called D66[...] in mathematica) is fully symmetric in its indices. The coupling $c_4$ (which is called D64[...]) is symmetric in its first two indices and it is symmetric in its last two indices:
+
+$$
+   c_4^{a_1 a_2 a_3 a_4} = c_4^{a_2 a_1 a_3 a_4} = c_4^{a_1 a_2 a_4 a_3}
+$$ \phantom{.} 
+
+In addition, the four-point coupling satisfies the primary conditions
+
+$$
+   c_4^{a_1 a_2 a_3 a_4} = c_4^{a_3 a_4 a_1 a_2}
+$$
+
+$$
+   c_4^{a_1 a_2 a_3 a_4} + c_4^{a_2 a_3 a_1 a_4} + c_4^{a_3 a_1 a_2 a_4} = 0
+$$ \phantom{.}
+
+The latter condition can be imposed by the replacement
+
+$$
+   c_4^{a_1 a_2 a_3 a_4} \to \frac{2}{3} c_4^{a_1 a_2 a_3 a_4} - \frac{1}{3}\left(
+      c_4^{a_2 a_3 a_1 a_4} + c_4^{a_3 a_1 a_2 a_4} \right)
+$$
+
+\phantom{.}
+
+The scaling dimensions of the couplings are given by 
+
+$$
+   \mu \frac{d}{d\mu} c_6^{A} = \sum_i \gamma^{AB}_{6,i} c_i^B
+                              = (2-4\epsilon)c_6^{A} + O(\lambda)
+$$
+
+$$
+   \mu \frac{d}{d\mu} c_4^{A} = \sum_i \gamma^{AB}_{4,i} c_i^B
+                              = (2-2\epsilon)c_4^{A} + O(\lambda)
+$$ \phantom{.}
+
+where the sum runs over the two couplings, $i=4$ and $i=6$, and capital letter indices stand for groups of indices.
+
+

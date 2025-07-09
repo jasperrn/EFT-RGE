@@ -1,0 +1,73 @@
+Dimension 6 spin 0 in hypercubic theory
+
+The dimension four Lagrangian has been taken to be
+
+$$
+   L = \frac{1}{2} \partial_\mu \phi^{a} \partial^\mu \phi^{a}
+      -\frac{\lambda_1}{4!}(\phi.\phi)^2
+      -\frac{\lambda_2}{4!}\delta^{a_1 a_2 a_3 a_4}
+            \phi^{a_1}\phi^{a_2}\phi^{a_3}\phi^{a_4}      
+$$ \phantom{.}
+
+In other words, starting from the general theory, we have replaced the dimension-four tensor
+
+$$
+   \lambda^{a_1 a_2 a_3 a_4} \to \frac{\lambda_1}{3}(\delta^{a_1 a_2}\delta^{a_3 a_4}
+                                                     +\delta^{a_1 a_3}\delta^{a_2 a_4}
+                                                     +\delta^{a_1 a_4}\delta^{a_2 a_3})
+                                 +\lambda_2 \delta^{a_1 a_2 a_3 a_4}
+$$ \phantom{.}
+
+The higher-dimensional operators are kept general, such that all irreducible representations are captured. There are two such operators (see dim6spin0 in the GeneralScalar theory).
+
+$$
+   O^{(6,0)}_{6,1} = \frac{1}{\mu^{2-4\epsilon}}\frac{c_6^{a_1 a_2 a_3 a_4 a_5 a_6}}{6!}
+                        \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} \phi^{a_5} \phi^{a_6}
+$$ \phantom{.}
+
+$$
+   O^{(6,0)}_{4,1} = -\frac{1}{\mu^{2-2\epsilon}}\frac{c_4^{a_1 a_2 a_3 a_4}}{4}
+                        \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} \partial^\mu \phi^{a_4}
+$$ \phantom{.}
+
+The coupling $c_6$ is fully symmetric. The coupling $c_4$ is symmetric in the first two indices, symmetric in the last two indices, and symemtric in interchanging these pairs of indices. 
+In addition, $c_4$ satisfies
+
+$$
+   c_4^{a_1 a_2 a_3 a_4} + c_4^{a_2 a_3 a_1 a_4} + c_4^{a_3 a_1 a_2 a_4} = 0
+$$ \phantom{.}
+
+The anomalous dimensions are of the form
+
+$$
+   \mu \frac{d}{d\mu} c_6^{A} = \sum_i \gamma^{AB}_{6,i} c_i^B
+                              = (2-4\epsilon)c_6^{A} + O(\lambda)
+$$
+
+$$
+   \mu \frac{d}{d\mu} c_4^{A} = \sum_i \gamma^{AB}_{4,i} c_i^B
+                              = (2-2\epsilon)c_4^{A} + O(\lambda)
+$$ \phantom{.}
+
+where the sum runs over the two couplings, $i=4$ and $i=6$, and capital letter indices stand for groups of indices.
+
+To reduce the size of the expressions, the external indices have been contracted with dummy functions that preserve the permutation symmetry. That is, the results files list the expressions
+
+$$
+   \mu \frac{d}{d\mu} c_6^{a_1 a_2 a_3 a_4 a_5 a_6} \ 
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_1^{a_3}  \phi_1^{a_4}   \phi_1^{a_5}   \phi_1^{a_6}
+$$
+
+and
+
+$$
+   \mu \frac{d}{d\mu} c_4^{a_1 a_2 a_3 a_4}
+   \phi_1^{a_1}   \phi_1^{a_2}   \phi_2^{a_3}  \phi_2^{a_4}
+$$ \phantom{.}
+
+where $\phi_1$ and $\phi_2$ are dummy vectors.
+ 
+
+
+
+
