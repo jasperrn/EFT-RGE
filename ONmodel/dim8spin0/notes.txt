@@ -1,6 +1,6 @@
 Dimension 8 spin 0 in the O(N) model
 
-At this order, there are four operators, which we choose to be
+At this order, there are four O(N) singlet operators, which we choose to be
 
 $$ O^{(8,0)}_{8,1} = \frac{1}{\mu^{4-6\epsilon}}\frac{c_8}{2^4*4!}(\phi \cdot \phi)^4 $$
 
@@ -38,5 +38,5 @@ $$ \mu \frac{d}{d\mu} c_{41} = (4-2\epsilon)c_{41} + O(\lambda)$$
 
 $$ \mu \frac{d}{d\mu} c_{42} = (4-2\epsilon)c_{42} + O(\lambda)$$\phantom{.}
 
-\textit{The three-loop results first appeared in the PhD thesis of Jasper Roosmale Nepveu, DOI: 10.18452/29107. The four-loop results are new.}
+The three-loop results first appeared in the PhD thesis of Jasper Roosmale Nepveu, DOI: 10.18452/29107. The four-loop results are new.
                                  

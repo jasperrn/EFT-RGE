@@ -7,6 +7,8 @@ $$ L = \frac12 \partial_\mu \phi^a \partial^\mu \phi^a
              \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} 
 $$\phantom{.} 
 
+The anomalous dimension of the field is defined as
+
 $$\gamma_\phi^{a_1 a_2} \, \phi^{a_2} = -\mu \frac{d}{d\mu} \phi^{a_1} 
                                      = O(\lambda^2) 
 $$\phantom{.}

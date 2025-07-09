@@ -1,6 +1,6 @@
-Dimension 10 spin 0 
+Dimension 10 spin 0 in the O(N) model 
 
-At this order there are xx operators, which we define as
+At this order there are eight O(N) singlet operators, which we define as
 
 $$ O^{(10,0)}_{10,1} = \frac{1}{\mu^{6-8\epsilon}}\frac{c_{10}}{2^5*5!} (\phi \cdot \phi)^5 
 $$
@@ -172,5 +172,5 @@ $$ \mu \frac{d}{d\mu} c_{6i} = (6-4\epsilon)c_{6i} + O(\lambda)$$
 $$ \mu \frac{d}{d\mu} c_{4i} = (6-2\epsilon)c_{4i} + O(\lambda)$$\phantom{.}
 
 
-\textit{These results first appeared in the PhD thesis of Jasper Roosmale Nepveu, DOI: 10.18452/29107}
+These results first appeared in the PhD thesis of Jasper Roosmale Nepveu, DOI: 10.18452/29107.
 

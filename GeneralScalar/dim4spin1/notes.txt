@@ -2,9 +2,9 @@ Dimension 4 spin 1
 
 There is one operator at this order, which we define as
 
-$$ O^{(4,1)}_{3,1} = ... D^{a_1 a_2 a_3} \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} $$\phantom{.}
+$$ O^{(4,1)}_{3,1} = \mu^\epsilon D^{a_1 a_2 a_3} \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} $$\phantom{.}
 
-The tensor D is symmetric in it's first two indices
+The tensor D is symmetric in its first two indices
 
 $$ D^{a_1 a_2 a_3} = D^{a_2 a_1 a_3} $$\phantom{.}
 

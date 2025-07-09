@@ -5,14 +5,14 @@ At this order, there are two operators,
 $$
    O^{(6,0)}_{6,1} = \frac{1}{\mu^{2-4\epsilon}}\frac{c_6^{a_1 a_2 a_3 a_4 a_5 a_6}}{6!}
                         \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4} \phi^{a_5} \phi^{a_6}
-$$ \phantom{.}
+$$
 
 $$
    O^{(6,0)}_{4,1} = -\frac{1}{\mu^{2-2\epsilon}}\frac{c_4^{a_1 a_2 a_3 a_4}}{4}
                         \phi^{a_1} \phi^{a_2} \partial_\mu \phi^{a_3} \partial^\mu \phi^{a_4}
 $$ \phantom{.}
 
-The coupling $c_6$ (which is called D66[...] in mathematica) is fully symmetric in its indices. The coupling $c_4$ (which is called D64[...]) is symmetric in its first two indices and it is symmetric in its last two indices:
+The coupling $c_6$ (which is called D66[...]) is fully symmetric in its indices. The coupling $c_4$ (which is called D64[...]) is symmetric in its first two indices and it is symmetric in its last two indices:
 
 $$
    c_4^{a_1 a_2 a_3 a_4} = c_4^{a_2 a_1 a_3 a_4} = c_4^{a_1 a_2 a_4 a_3}

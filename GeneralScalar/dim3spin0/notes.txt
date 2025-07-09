@@ -1,6 +1,6 @@
 Dimension 3 spin 0 in the general scalar theory.
 
-There is one operators, which we have chosen to be
+There is one operator, which we have chosen to be
 
 $$ O^{(3,0)}_{3,1} = \mu^{1+\epsilon} \, D_{3,3}^{a_1 a_2 a_3} 
                      \phi^{a_1} \phi^{a_2} \phi^{a_3}
@@ -14,7 +14,7 @@ $$ \mu \frac{d}{d\mu} D_{3,3}^{a_1 a_2 a_3}
       = \gamma_{3\to 3}^{a_1 a_2 a_3 b_1 b_2 b_3} \, D_{3,3}^{b_1 b_2 b_3}
         + \gamma_{1\to 3}^{a_1 a_2 a_3 b_1} \, D_{3,1}^{b_1}
       = -(1+\epsilon)\,D_{3,3}^{a_1 a_2 a_3} + O(\lambda) 
-$$
+$$ \phantom{.}
 
 We provide five-loop results.
 See [Bednyakov and Pikelner 2102.12832] for six-loop expressions.

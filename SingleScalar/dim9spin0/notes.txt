@@ -1,4 +1,4 @@
-Dimension 9 spin 0 in the single scalar EFT (Ising model)
+Dimension 9 spin 0 in the single scalar EFT
 
 There are two operators at this order, which we define as 
 
@@ -16,6 +16,5 @@ The anomalous dimension of c9 and c5 have the form
 
 $$ \mu \frac{d}{d\mu} c_9 = (5-7*\epsilon)*c_9 + O(\lambda) $$
 
-$$ \mu \frac{d}{d\mu} c_5 = (5-3*\epsilon)*c_5 + O(\lambda) $$\phantom{.}
+$$ \mu \frac{d}{d\mu} c_5 = (5-3*\epsilon)*c_5 + O(\lambda) $$
 
-which we save in res[9,0,9,1] and res[9,0,5,1], respectively.

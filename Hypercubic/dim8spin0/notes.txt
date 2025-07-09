@@ -1,4 +1,4 @@
-Dimension 8 spin 0 in cubic theory
+Dimension 8 spin 0 in hypercubic theory
 
 The dimension four Lagrangian has been taken to be
 
@@ -57,7 +57,7 @@ $$\phantom{.}
 
 (and similarly for the sum over five permutations keeping $a_5$ fixed, due to the symmetry under $a_5 \leftrightarrow a_6$).
 
-Furthermore, $c_{4,1}$ is fully permutation invariant. Finally, $c_{4,2}$ satisfies the same conditions as the four-point tensor at dimension six. That is, it is symemtric in the first two and symmetric in the last two indices, as well as symmetric in interchanging these pairs, and it satisfies the condition
+Furthermore, $c_{4,1}$ is fully permutation invariant. Finally, $c_{4,2}$ satisfies the same conditions as the four-point tensor at dimension six. That is, it is symmetric in the first two and symmetric in the last two indices, as well as symmetric in interchanging these pairs, and it satisfies the condition
 
 $$
    c_{4,2}^{a_1 a_2 a_3 a_4} + c_{4,2}^{a_2 a_3 a_1 a_4} + c_{4,3}^{a_3 a_1 a_2 a_4} = 0

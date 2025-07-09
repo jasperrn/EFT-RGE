@@ -1,4 +1,4 @@
-Dimension 7 spin 0 in the single scalar EFT (Ising model)
+Dimension 7 spin 0 in the single scalar EFT
 
 There is one operator at this order, which we define as 
 
@@ -6,6 +6,4 @@ $$ O^{(7,0)}_{7,1} = \frac{1}{\mu^{3-5\epsilon}} \frac{c_7}{7!} \phi^7 $$ \phant
 
 The anomalous dimension of c7 has the form
 
-$$ \mu \frac{d}{d\mu} c_7 = (3-5*\epsilon)*c_7 + O(\lambda) $$ \phantom{.}
-
-which we save in res[7,0,7,1]
+$$ \mu \frac{d}{d\mu} c_7 = (3-5*\epsilon)*c_7 + O(\lambda) $$

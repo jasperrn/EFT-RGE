@@ -19,4 +19,4 @@ $$
 
 The anomalous dimension of the field is stored under dim1spin0.
 
-We provide the beta function and anomalous dimension of the field up to five loops. Seven loop results exist in the literature, see [Schnetz 1606.08598].
+We provide the beta function and anomalous dimension of the field up to five loops. Seven loop results exist in the literature, see [Schnetz 1606.08598; 2212.03663].
