@@ -1,0 +1,68 @@
+Dimension 6 spin 1 in hypercubic theory
+
+The dimension four Lagrangian has been taken to be
+
+$$
+   L = \frac{1}{2} \partial_\mu \phi^{a} \partial^\mu \phi^{a}
+      -\frac{\lambda_1}{4!}(\phi.\phi)^2
+      -\frac{\lambda_2}{4!}\delta^{a_1 a_2 a_3 a_4}
+            \phi^{a_1}\phi^{a_2}\phi^{a_3}\phi^{a_4}      
+$$ \phantom{.}
+
+In other words, starting from the general theory, we have replaced the dimension-four tensor
+
+$$
+   \lambda^{a_1 a_2 a_3 a_4} \to \frac{\lambda_1}{3}(\delta^{a_1 a_2}\delta^{a_3 a_4}
+                                                     +\delta^{a_1 a_3}\delta^{a_2 a_4}
+                                                     +\delta^{a_1 a_4}\delta^{a_2 a_3})
+                                 +\lambda_2 \delta^{a_1 a_2 a_3 a_4}
+$$ \phantom{.}
+
+The higher-dimensional operator is kept general, such that all irreducible representations are captured. There is one such operator,
+
+$$
+   O^{(6,1)}_{5,1} = \frac{1}{\mu^{2-3\epsilon}} \frac{1}{4!}
+                     C^{a_1 a_2 a_3 a_4 a_5} \phi^{a_1} \phi^{a_2} \phi^{a_3} \phi^{a_4}
+                                             \partial_\mu \phi^{a_5}
+$$\phantom{.}
+
+where the tensor $C^{a_1 a_2 a_3 a_4}$ is fully symmetric in its first four indices,
+
+$$
+   C^{a_1 a_2 a_3 a_4 a_5} =
+   C^{a_2 a_1 a_3 a_4 a_5} =
+   C^{a_1 a_3 a_2 a_4 a_5} =
+   C^{a_1 a_2 a_4 a_3 a_5}\,.
+$$\phantom{.}
+
+In addition, it satisfies the primary condition
+
+$$
+   C^{a_1 a_2 a_3 a_4 a_5} +
+   C^{a_2 a_3 a_4 a_5 a_1} +
+   C^{a_3 a_4 a_5 a_1 a_2} +
+   C^{a_4 a_5 a_1 a_2 a_3} +
+   C^{a_5 a_1 a_2 a_3 a_4} = 0
+$$ \phantom{.}
+
+which can be imposed by the replacement
+
+$$
+   C^{a_1 a_2 a_3 a_4 a_5} \to
+   \frac{4}{5}C^{a_1 a_2 a_3 a_4 a_5} -\frac{1}{5} \left(
+   C^{a_2 a_3 a_4 a_5 a_1} +
+   C^{a_3 a_4 a_5 a_1 a_2} +
+   C^{a_4 a_5 a_1 a_2 a_3} +
+   C^{a_5 a_1 a_2 a_3 a_4} \right)
+$$\phantom{.}
+
+\phantom{.}
+
+The scaling dimension is defined as
+
+$$ \mu \frac{d}{d\mu} C^{A} = (2-3\epsilon)C^{A} + O(\lambda)
+$$\phantom{.}
+
+where capital letter indices stand for groups of indices.
+
+
