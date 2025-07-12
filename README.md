@@ -9,12 +9,24 @@ See the notebook _masterfile.nb_ for a guide to importing the files and see the 
 ## Theories
 
 1. **General Scalar theory.** A ϕ^4 scalar effective field theory with arbitrary flavour structure.
+   - Up to dim 4 spin 0: 5 loops
+   - Dim 3 spin 1: 5 loops
+   - Dim 4 spin 1,2: 5 loops
+   - Dim 5 spin 0,1,2: 5 loops
+   - Dim 6 spin 0,1: 4 loops
+   - Dim 6 spin 2: 5 loops
 
-2. **Hypercubic theory.** A ϕ^4 theory with global $S_n \ltimes (Z_2)^n$ symmetry. We consider composite operators in any representation.
+3. **Hypercubic theory.** A ϕ^4 theory with global $S_n \ltimes (Z_2)^n$ symmetry. We consider composite operators in any representation.
+   - Dim 6 spin 0,1: 5 loops
+   - Dim 8 spin 0: 2 loops
 
-3. **O(n) model.**
+5. **O(n) model.** We consider only O(n) singlet operators.
+   - Dim 8 spin 0: 4 loops
+   - Dim 10 spin 0: 2 loops
 
-4. **Single Scalar theory.**
+7. **Single Scalar theory.**
+   - Dim 7 spin 0: 5 loops
+   - Dim 9 spin 0: 3 loops
 
 ## Authors
 * Johan Henriksson
