@@ -4,7 +4,7 @@ Multi-loop anomalous dimensions in $4-2 \varepsilon$ dimensions in various effec
 
 We provide the results in both FORM (.frm) format and Mathematica (.m) format.
 
-See the notebook _masterfile.nb_ for a guide to importing the files and see the notes.txt files for the conventions of each calculation.
+See the notebook _masterfile.nb_ for a guide to importing the files and see the _notes.txt_ files for the conventions of each calculation.
 
 ## Theories
 
@@ -16,7 +16,7 @@ See the notebook _masterfile.nb_ for a guide to importing the files and see the 
    - Dim 6 spin 0,1: 4 loops
    - Dim 6 spin 2: 5 loops
 
-3. **Hypercubic theory.** A ϕ^4 theory with global $S_n \ltimes (Z_2)^n$ symmetry. We consider composite operators in any representation.
+3. **Hypercubic theory.** A ϕ^4 theory with global $S_n \ltimes (Z_2)^n$ symmetry. We consider composite operators in any representation of the flavor group.
    - Dim 6 spin 0,1: 5 loops
    - Dim 8 spin 0: 2 loops
 
