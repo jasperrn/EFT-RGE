@@ -1,0 +1,14 @@
+Dimension 3 spin 1 in the general scalar theory. 
+
+At this order, there is one operator, which we choose to be
+
+$$ O^{(3,1)}_{2,1} = \mu^1 \,  D_3^{a_1 a_2} \phi^{a_1} \partial_\mu \phi^{a_2} $$ \phantom{.}
+
+The tensor $D_3$ is antisymmetric:
+
+$$ D_3^{a_1 a_2} = - D_3^{a_2 a_1} $$ \phantom{.}
+
+The anomalous dimension of the coupling is defined as
+
+$$ \mu \frac{d}{d\mu} D_3^{a_1 a_2} = \gamma^{a_1 a_2 b_1 b_2} \, D_3^{b_1 b_2}
+                                   = -\,D_3^{a_1 a_2} + O(\lambda) $$

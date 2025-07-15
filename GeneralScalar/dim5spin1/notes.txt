@@ -1,0 +1,56 @@
+Dimension 5 spin 1 in the general scalar theory
+
+At this order, there are two operators,
+
+$$ O^{(5,1)}_{4,1} = \frac{1}{\mu^{1-2\epsilon}} \frac{C^{a_1 a_2 a_3 a_4}}{6}
+      \phi^{a_1} \phi^{a_2} \phi^{a_3} \partial_\mu \phi^{a_4}
+$$
+
+$$ O^{(5,1)}_{2,1} = \frac{1}{\mu} C^{a_1 a_2} \left(
+      3\partial_\mu \phi^{a_1} \partial^2 \phi^{a_2}
+      -\phi^{a_1} \partial_\mu \partial^2 \phi^{a_2}
+   \right)
+$$\phantom{.}
+
+The tensor $C^{a_1 a_2 a_3 a_4}$ is fully symmetric in its first three indices,
+
+$$C^{a_1 a_2 a_3 a_4} = C^{a_2 a_1 a_3 a_4} = C^{a_1 a_3 a_2 a_4}
+$$\phantom{.}
+
+In addition, it satisfies the condition
+
+$$ C^{a_1 a_2 a_3 a_4} + C^{a_2 a_3 a_4 a_1} 
+   + C^{a_3 a_4 a_1 a_2} + C^{a_4 a_1 a_2 a_3} =0
+$$\phantom{.}
+
+which can be implemented by the replacement
+
+$$ C^{a_1 a_2 a_3 a_4} \to \frac{3}{4} C^{a_1 a_2 a_3 a_4}
+         - \frac{1}{4} \left( C^{a_2 a_3 a_4 a_1} + C^{a_3 a_4 a_1 a_2}
+                              +C^{a_4 a_1 a_2 a_3} \right)
+$$\phantom{.}
+
+The matrix $C^{a_1 a_2}$ is antisymmetric,
+
+$$C^{a_1 a_2} = - C^{a_2 a_1}$$\phantom{.}
+
+\textit{\textbf{Note:} In contrast to other calculations, we do not remove the two-point operator using the equations of motion. 
+The reason is that the associated field redefinition affects the field strength normalization of the scalar (i.e. the Z factor in the LSZ reduction formula).}
+
+\phantom{.}
+
+The scaling dimensions are defined as
+
+$$ \mu \frac{d}{d\mu} C^{a_1 a_2 a_3 a_4} 
+   = \gamma_{4\to 4}^{a_1 a_2 a_3 a_4, b_1 b_2 b_3 b_4} C^{b_1 b_2 b_3 b_4}
+      + \gamma_{2\to 4}^{a_1 a_2 a_3 a_4, b_1 b_2} C^{b_1 b_2}   
+   = (1-2\epsilon) C^{a_1 a_2 a_3 a_4} + O(\lambda)
+$$
+
+$$ \mu \frac{d}{d\mu} C^{a_1 a_2} 
+   = \gamma_{4\to 2}^{a_1 a_2, b_1 b_2 b_3 b_4} C^{b_1 b_2 b_3 b_4}
+      + \gamma_{2\to 2}^{a_1 a_2, b_1 b_2} C^{b_1 b_2}   
+      = C^{a_1 a_2} + O(\lambda)
+$$
+
+

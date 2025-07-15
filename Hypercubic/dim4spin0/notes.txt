@@ -1,0 +1,40 @@
+Dimension 6 spin 0 in hypercubic theory
+
+The dimension four Lagrangian has been taken to be
+
+$$
+   L = \frac{1}{2} \partial_\mu \phi^{a} \partial^\mu \phi^{a}
+      -\frac{\lambda_1}{4!}(\phi.\phi)^2
+      -\frac{\lambda_2}{4!}\delta^{a_1 a_2 a_3 a_4}
+            \phi^{a_1}\phi^{a_2}\phi^{a_3}\phi^{a_4}      
+$$ \phantom{.}
+
+In other words, starting from the general theory, we have replaced the dimension-four tensor
+
+$$
+   \lambda^{a_1 a_2 a_3 a_4} \to \frac{\lambda_1}{3}(\delta^{a_1 a_2}\delta^{a_3 a_4}
+                                                     +\delta^{a_1 a_3}\delta^{a_2 a_4}
+                                                     +\delta^{a_1 a_4}\delta^{a_2 a_3})
+                                 +\lambda_2 \delta^{a_1 a_2 a_3 a_4}
+$$ \phantom{.}
+
+The beta functions are defined as
+
+$$
+   \beta_{\lambda_1} = \mu \frac{d}{d\mu} \lambda_1 = -2\epsilon \lambda_1 + ...
+$$
+
+$$
+   \beta_{\lambda_2} = \mu \frac{d}{d\mu} \lambda_2 = -2\epsilon \lambda_2 + ...
+$$\phantom{.}
+
+The anomalous dimension of the field is defined by
+
+$$
+   \gamma_\phi\,\phi = - \mu \frac{d}{d\mu} \phi = O(\lambda^2)
+$$
+
+The anomalous dimension of the field is stored under dim1spin0.
+
+We provide results up to five loops. Six loop results can be extracted from the beta function in the general theory, see [Bednyakov and Pikelner 2102.12832].
+ 
