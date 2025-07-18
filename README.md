@@ -36,7 +36,7 @@ See the notebook _masterfile.nb_ for a guide to importing the files and see the 
 
 ## Citation
 
-1. J. Henriksson, F. Herzog, S. Kousvos, J. Roosmale Nepveu, _Multi-loop spectra in general scalar EFTs and CFTs_, [arXiv:2507.xxxxx](https://arxiv.org/pdf/2507.xxxxx.pdf). 
+1. J. Henriksson, F. Herzog, S. Kousvos, J. Roosmale Nepveu, _Multi-loop spectra in general scalar EFTs and CFTs_, [arXiv:2507.12518](https://arxiv.org/pdf/2507.12518.pdf). 
 
 2. J. Henriksson, S. Kousvos, J. Roosmale Nepveu, _EFT meets CFT: Multi-loop renormalization of higher-dimensional operators in general ϕ^4 theories_,
 [arXiv:25xx.xxxxx](https://arxiv.org/pdf/25xx.xxxxx.pdf).
