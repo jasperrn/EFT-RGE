@@ -1,8 +1,5 @@
 *File written on ** Thu Jan 16 12:37:00 2025 ** 
 
-       + ep * (  - delta(a1,a2)
-       )
-
        + l^2 * (  - 1/12*lam(a1,b1,b2,b3)*lam(a2,b1,b2,b3)
        )
 
