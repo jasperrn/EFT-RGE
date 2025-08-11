@@ -1,4 +1,4 @@
-*File written on ** Fri May 30 20:41:30 2025 ** 
+*File written on ** Fri Aug  1 15:30:53 2025 ** 
 
        + ep * (  - 2*lam1
        )
@@ -76,7 +76,8 @@
        - 14/9*N^2*lam1^5
        )
 
-       + l^5 * ( 1336801/1728*lam1^2*lam2^4
+       + l^5 * ( 158849/1152*lam1*lam2^5
+       + 1336801/1728*lam1^2*lam2^4
        + 2281727/1296*lam1^3*lam2^3
        + 1314497/648*lam1^4*lam2^2
        + 537437/486*lam1^5*lam2
@@ -92,34 +93,6 @@
        + 161/10368*N^3*lam1^5*lam2
        + 6289/31104*N^3*lam1^6
        + 13/62208*N^4*lam1^6
-       + 86573/3456*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       - 4187/4608*delta(a1,a2)*delta(a3,a4,b2,b2)*lam1*lam2^5
-       - 11035/13824*delta(a1,a2)*delta(a3,a4,b3,b3)*lam1*lam2^5
-       - 833/2304*delta(a1,a2)*delta(a3,a4,b4,b4)*lam1*lam2^5
-       + 89675/768*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       + 96317/768*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       + 168197/2304*delta(a1,a2,a3,a4,b3,b3)*lam2^6
-       + 267/16*delta(a1,a2,a3,a4,b4,b4)*lam2^6
-       + 3439/192*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       + 831/512*delta(a1,a2,b2,b2)*delta(a3,a4)*lam1*lam2^5
-       + 179191/41472*delta(a1,a2,b3,b3)*delta(a3,a4)*lam1*lam2^5
-       - 4529/5184*delta(a1,a2,b4,b4)*delta(a3,a4)*lam1*lam2^5
-       + 86573/3456*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       - 4187/4608*delta(a1,a3)*delta(a2,a4,b2,b2)*lam1*lam2^5
-       - 11035/13824*delta(a1,a3)*delta(a2,a4,b3,b3)*lam1*lam2^5
-       - 833/2304*delta(a1,a3)*delta(a2,a4,b4,b4)*lam1*lam2^5
-       + 3439/192*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       + 831/512*delta(a1,a3,b2,b2)*delta(a2,a4)*lam1*lam2^5
-       + 179191/41472*delta(a1,a3,b3,b3)*delta(a2,a4)*lam1*lam2^5
-       - 4529/5184*delta(a1,a3,b4,b4)*delta(a2,a4)*lam1*lam2^5
-       + 86573/3456*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       - 4187/4608*delta(a1,a4)*delta(a2,a3,b2,b2)*lam1*lam2^5
-       - 11035/13824*delta(a1,a4)*delta(a2,a3,b3,b3)*lam1*lam2^5
-       - 833/2304*delta(a1,a4)*delta(a2,a3,b4,b4)*lam1*lam2^5
-       + 3439/192*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5
-       + 831/512*delta(a1,a4,b2,b2)*delta(a2,a3)*lam1*lam2^5
-       + 179191/41472*delta(a1,a4,b3,b3)*delta(a2,a3)*lam1*lam2^5
-       - 4529/5184*delta(a1,a4,b4,b4)*delta(a2,a3)*lam1*lam2^5
        )
 
        + l^5*z7 * ( 441*lam1^2*lam2^4
@@ -131,10 +104,10 @@
        + 1274/3*N*lam1^5*lam2
        + 343*N*lam1^6
        + 686/27*N^2*lam1^6
-       + 1323*delta(a1,a2,a3,a4,b1,b1)*lam2^6
        )
 
-       + l^5*z6 * ( 575/3*lam1^2*lam2^4
+       + l^5*z6 * ( 75*lam1*lam2^5
+       + 575/3*lam1^2*lam2^4
        - 1600/9*lam1^3*lam2^3
        - 25400/27*lam1^4*lam2^2
        - 24050/27*lam1^5*lam2
@@ -145,17 +118,10 @@
        - 50/9*N^2*lam1^5*lam2
        - 1775/162*N^2*lam1^6
        - 25/81*N^3*lam1^6
-       + 25/2*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       - 450*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       + 225/2*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       + 25/2*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       + 25/2*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       + 25/2*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       + 25/2*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       + 25/2*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5
        )
 
-       + l^5*z5 * ( 1145/3*lam1^2*lam2^4
+       + l^5*z5 * ( 2*lam1*lam2^5
+       + 1145/3*lam1^2*lam2^4
        + 17444/9*lam1^3*lam2^3
        + 96794/27*lam1^4*lam2^2
        + 75236/27*lam1^5*lam2
@@ -169,22 +135,10 @@
        + 602/27*N^2*lam1^5*lam2
        + 7466/243*N^2*lam1^6
        + 305/243*N^3*lam1^6
-       + 1/3*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       + 2025/2*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       + 72*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       - 93*delta(a1,a2,a3,a4,b3,b3)*lam2^6
-       - 9/2*delta(a1,a2,a3,a4,b4,b4)*lam2^6
-       + 5/3*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       - 4/3*delta(a1,a2,b2,b2)*delta(a3,a4)*lam1*lam2^5
-       + 1/3*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       + 5/3*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       - 4/3*delta(a1,a3,b2,b2)*delta(a2,a4)*lam1*lam2^5
-       + 1/3*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       + 5/3*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5
-       - 4/3*delta(a1,a4,b2,b2)*delta(a2,a3)*lam1*lam2^5
        )
 
-       + l^5*z4 * ( 141/2*lam1^2*lam2^4
+       + l^5*z4 * ( 65/2*lam1*lam2^5
+       + 141/2*lam1^2*lam2^4
        - 337/3*lam1^3*lam2^3
        - 23105/54*lam1^4*lam2^2
        - 10177/27*lam1^5*lam2
@@ -199,34 +153,10 @@
        - 347/54*N^2*lam1^6
        - 1/36*N^3*lam1^5*lam2
        - 7/24*N^3*lam1^6
-       + 107/16*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       - 1/3*delta(a1,a2)*delta(a3,a4,b2,b2)*lam1*lam2^5
-       - 1/4*delta(a1,a2)*delta(a3,a4,b3,b3)*lam1*lam2^5
-       - 11/16*delta(a1,a2)*delta(a3,a4,b4,b4)*lam1*lam2^5
-       - 2611/16*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       + 9/4*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       + 23*delta(a1,a2,a3,a4,b3,b3)*lam2^6
-       - 171/16*delta(a1,a2,a3,a4,b4,b4)*lam2^6
-       + 229/48*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       + 23/24*delta(a1,a2,b2,b2)*delta(a3,a4)*lam1*lam2^5
-       - 5/16*delta(a1,a2,b3,b3)*delta(a3,a4)*lam1*lam2^5
-       + 107/16*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       - 1/3*delta(a1,a3)*delta(a2,a4,b2,b2)*lam1*lam2^5
-       - 1/4*delta(a1,a3)*delta(a2,a4,b3,b3)*lam1*lam2^5
-       - 11/16*delta(a1,a3)*delta(a2,a4,b4,b4)*lam1*lam2^5
-       + 229/48*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       + 23/24*delta(a1,a3,b2,b2)*delta(a2,a4)*lam1*lam2^5
-       - 5/16*delta(a1,a3,b3,b3)*delta(a2,a4)*lam1*lam2^5
-       + 107/16*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       - 1/3*delta(a1,a4)*delta(a2,a3,b2,b2)*lam1*lam2^5
-       - 1/4*delta(a1,a4)*delta(a2,a3,b3,b3)*lam1*lam2^5
-       - 11/16*delta(a1,a4)*delta(a2,a3,b4,b4)*lam1*lam2^5
-       + 229/48*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5
-       + 23/24*delta(a1,a4,b2,b2)*delta(a2,a3)*lam1*lam2^5
-       - 5/16*delta(a1,a4,b3,b3)*delta(a2,a3)*lam1*lam2^5
        )
 
-       + l^5*z3 * ( 5495/12*lam1^2*lam2^4
+       + l^5*z3 * ( 1519/24*lam1*lam2^5
+       + 5495/12*lam1^2*lam2^4
        + 37789/27*lam1^3*lam2^3
        + 171533/81*lam1^4*lam2^2
        + 116759/81*lam1^5*lam2
@@ -242,37 +172,10 @@
        - 17/648*N^3*lam1^5*lam2
        + 26/81*N^3*lam1^6
        - 1/432*N^4*lam1^6
-       + 329/36*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       + 3/32*delta(a1,a2)*delta(a3,a4,b2,b2)*lam1*lam2^5
-       + 11/72*delta(a1,a2)*delta(a3,a4,b3,b3)*lam1*lam2^5
-       + 335/288*delta(a1,a2)*delta(a3,a4,b4,b4)*lam1*lam2^5
-       + 11865/32*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       + 2219/16*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       - 65/32*delta(a1,a2,a3,a4,b3,b3)*lam2^6
-       - 77/8*delta(a1,a2,a3,a4,b4,b4)*lam2^6
-       + 4067/288*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       - 7/16*delta(a1,a2,b2,b2)*delta(a3,a4)*lam1*lam2^5
-       - 111/32*delta(a1,a2,b3,b3)*delta(a3,a4)*lam1*lam2^5
-       + 1/3*delta(a1,a2,b4,b4)*delta(a3,a4)*lam1*lam2^5
-       + 329/36*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       + 3/32*delta(a1,a3)*delta(a2,a4,b2,b2)*lam1*lam2^5
-       + 11/72*delta(a1,a3)*delta(a2,a4,b3,b3)*lam1*lam2^5
-       + 335/288*delta(a1,a3)*delta(a2,a4,b4,b4)*lam1*lam2^5
-       + 4067/288*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       - 7/16*delta(a1,a3,b2,b2)*delta(a2,a4)*lam1*lam2^5
-       - 111/32*delta(a1,a3,b3,b3)*delta(a2,a4)*lam1*lam2^5
-       + 1/3*delta(a1,a3,b4,b4)*delta(a2,a4)*lam1*lam2^5
-       + 329/36*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       + 3/32*delta(a1,a4)*delta(a2,a3,b2,b2)*lam1*lam2^5
-       + 11/72*delta(a1,a4)*delta(a2,a3,b3,b3)*lam1*lam2^5
-       + 335/288*delta(a1,a4)*delta(a2,a3,b4,b4)*lam1*lam2^5
-       + 4067/288*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5
-       - 7/16*delta(a1,a4,b2,b2)*delta(a2,a3)*lam1*lam2^5
-       - 111/32*delta(a1,a4,b3,b3)*delta(a2,a3)*lam1*lam2^5
-       + 1/3*delta(a1,a4,b4,b4)*delta(a2,a3)*lam1*lam2^5
        )
 
-       + l^5*z3^2 * (  - 190/3*lam1^2*lam2^4
+       + l^5*z3^2 * (  - 18*lam1*lam2^5
+       - 190/3*lam1^2*lam2^4
        - 544/9*lam1^3*lam2^3
        + 1384/27*lam1^4*lam2^2
        + 3148/27*lam1^5*lam2
@@ -282,13 +185,4 @@
        + 446/81*N*lam1^6
        - 4/3*N^2*lam1^5*lam2
        - 59/81*N^2*lam1^6
-       - 2/27*N^3*lam1^6
-       - 3*delta(a1,a2)*delta(a3,a4,b1,b1)*lam1*lam2^5
-       + 36*delta(a1,a2,a3,a4,b1,b1)*lam2^6
-       - 27*delta(a1,a2,a3,a4,b2,b2)*lam2^6
-       + 36*delta(a1,a2,a3,a4,b4,b4)*lam2^6
-       - 3*delta(a1,a2,b1,b1)*delta(a3,a4)*lam1*lam2^5
-       - 3*delta(a1,a3)*delta(a2,a4,b1,b1)*lam1*lam2^5
-       - 3*delta(a1,a3,b1,b1)*delta(a2,a4)*lam1*lam2^5
-       - 3*delta(a1,a4)*delta(a2,a3,b1,b1)*lam1*lam2^5
-       - 3*delta(a1,a4,b1,b1)*delta(a2,a3)*lam1*lam2^5 )
+       - 2/27*N^3*lam1^6 )
