@@ -1,6 +1,7 @@
 *File written on ** Thu Jan 16 12:37:00 2025 ** 
 
-       + l^2 * (  - 1/12*lam(a1,b1,b2,b3)*lam(a2,b1,b2,b3)
+      -(
+        l^2 * (  - 1/12*lam(a1,b1,b2,b3)*lam(a2,b1,b2,b3)
        )
 
        + l^3 * ( 1/16*lam(a1,b1,b2,b3)*lam(a2,b3,b4,b5)*lam(b1,b2,b4,b5)
@@ -66,4 +67,4 @@
          b7,b8)*lam(b3,b5,b6,b9)
        - 3/8*lam(a1,b1,b2,b3)*lam(a2,b4,b5,b6)*lam(b1,b7,b8,b9)*lam(b2,b4,b7,
          b8)*lam(b3,b5,b6,b9)*z3
-       )
+       ))

@@ -1,6 +1,6 @@
 (* File written on ** Fri Aug  1 15:30:53 2025 *)
 
-gammaphi=( + l^2 * (  - 1/12*lam2^2 - 1/6*lam1*lam2 - 1/18*lam1^2 - 1/36*N*
+gammaphi=(-( + l^2 * (  - 1/12*lam2^2 - 1/6*lam1*lam2 - 1/18*lam1^2 - 1/36*N*
          lam1^2 )
 
        + l^3 * ( 1/16*lam2^3 + 3/16*lam1*lam2^2 + 1/6*lam1^2*lam2 + 1/27*
@@ -26,6 +26,6 @@ gammaphi=( + l^2 * (  - 1/12*lam2^2 - 1/6*lam1*lam2 - 1/18*lam1^2 - 1/36*N*
           - 191/108*lam1^3*lam2^2 - 115/162*lam1^4*lam2 - 23/243*lam1^5 - 1/72
          *N*lam1^2*lam2^3 - 23/216*N*lam1^3*lam2^2 - 20/81*N*lam1^4*lam2 - 13/
          162*N*lam1^5 + 5/216*N^2*lam1^4*lam2 - 13/972*N^2*lam1^5 - 5/1296*N^3
-         *lam1^4*lam2 + 1/972*N^3*lam1^5 - 1/3888*N^4*lam1^5 ));
+         *lam1^4*lam2 + 1/972*N^3*lam1^5 - 1/3888*N^4*lam1^5 )));
 
 
