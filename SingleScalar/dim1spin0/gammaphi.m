@@ -1,6 +1,6 @@
 (* File written on ** Wed Jan 15 10:59:37 2025 ** 
 *)
-gammaphi=( + ep * (  - 1 )
+gammaphi=(
 
        + lam^2*l^2 * (  - 1/12 )
 
@@ -10,4 +10,4 @@ gammaphi=( + ep * (  - 1 )
 
        + lam^5*l^5 * ( 3709/2304 + 1/2*z4 - 3/16*z3 )
 
-       + 1);
+       );
