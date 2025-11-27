@@ -38,8 +38,8 @@ See the notebook _masterfile.nb_ for a guide to importing the files and see the 
 
 1. J. Henriksson, F. Herzog, S. Kousvos, J. Roosmale Nepveu, _Multi-loop spectra in general scalar EFTs and CFTs_, [arXiv:2507.12518](https://arxiv.org/pdf/2507.12518.pdf). 
 
-2. J. Henriksson, S. Kousvos, J. Roosmale Nepveu, _EFT meets CFT: Multi-loop renormalization of higher-dimensional operators in general ϕ^4 theories_,
-[arXiv:25xx.xxxxx](https://arxiv.org/pdf/25xx.xxxxx.pdf).
+2. J. Henriksson, S. Kousvos, J. Roosmale Nepveu, _EFT meets CFT: Multiloop renormalization of higher-dimensional operators in general ϕ^4 theories_,
+[arXiv:2511.16740](https://arxiv.org/pdf/2511.16740.pdf).
 
 ## Conventions
 * We save the results in $d=4-2$ ep dimensions. In the masterfile, we also use $d=4-$ eps (i.e. eps = 2 ep).
